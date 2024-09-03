@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="contact-form">
+            <form action="prosesform.php" method="POST">
+                <h2>Kontak Formulir</h2>
+                <input type="text" name="nama" placeholder="nama" required>
+                <input type="email" name="email" placeholder="Email" required>
+                
+                <div class="gender">
+                    <label>
+                        <input type="radio" name="kelamin" value="lakilaki" required>
+                        laki
+                    </label>
+                    <label>
+                        <input type="radio" name="kelamin" value="perempuan" required>
+                        perempuan
+                    </label>
+                </div>
+                
+                <input type="text" name="nim" placeholder="NIM" required>
+                <input type="text" name="kelas" placeholder="kelas" required>
+
+                <textarea name="pesan" placeholder="pesan" required></textarea>
+                <button type="submit">kirim</button>
+            </form>
+        </div>
+        <div class="contact-info">
+            <h3>Kontak Informasi</h3>
+            <p>We're open for any suggestion or just to have a chat</p>
+            <p><strong>Address:</strong> Desa Semampir RT 3 RW 1</p>
+            <p><strong>Phone:</strong> +62 8438493 8348</p>
+            <p><strong>Email:</strong> daffap14@gmail.com</p>
+            <p><strong>Website:</strong> www.daffap.com</p>
+        </div>
+    </div>
+</body>
+</html>
+
