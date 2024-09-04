@@ -41,12 +41,18 @@ body {
 
 .contact-form button {
     padding: 10px 20px;
-    background: #f96d00;
+    background: #007BFF; /* Ubah warna dari oranye ke biru */
     color: #fff;
     border: none;
     border-radius: 3px;
     cursor: pointer;
+    transition: background 0.3s; 
 }
+
+.contact-form button:hover {
+    background: #0056b3; 
+}
+
 
 .contact-info p {
     margin-bottom: 10px;
